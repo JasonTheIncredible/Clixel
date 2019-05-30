@@ -1,0 +1,303 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"band",
+				"band_gap2\tstatement"
+			],
+			[
+				"chem",
+				"chemicalFormula"
+			],
+			[
+				"chemical",
+				"chemical_system\tstatement"
+			],
+			[
+				"None",
+				"None\tinstance"
+			],
+			[
+				"line",
+				"lineToBeStripped\tstatement"
+			],
+			[
+				"split",
+				"splitRHS\tstatement"
+			],
+			[
+				"csv",
+				"csvString\tstatement"
+			],
+			[
+				"get",
+				"getAttributeText"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 159.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"auto",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 471.0
+	},
+	"console":
+	{
+		"height": 128.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kenny/Documents/GitHub/Clixel/index_files/image-map.png",
+		"/Users/kenny/Documents/GitHub/Clixel/index_files/banner-styles.css",
+		"/Users/kenny/Documents/GitHub/Clixel/index_files/gsc3.js",
+		"/Users/kenny/Documents/GitHub/Clixel/codeResources/The Million Dollar Homepage - Own a piece of internet history!.html",
+		"/Users/kenny/Documents/GitHub/Clixel/clickash.html",
+		"/Users/kenny/Desktop/Clixel/clickash.html",
+		"/Users/kenny/Desktop/Clixel/The Million Dollar Homepage - Own a piece of internet history!.html",
+		"/Users/kenny/Desktop/banner-styles.css",
+		"/Users/kenny/Downloads/banner-styles.css",
+		"/Users/kenny/Downloads/analytics.js",
+		"/Users/kenny/Documents/Python Files/thymetoclipboard.py",
+		"/Users/kenny/Desktop/thyme-2017-04-14.json",
+		"/Users/kenny/Desktop/thyme-2017-03-30.json",
+		"/Users/kenny/Desktop/thyme-2017-03-28.json",
+		"/Users/kenny/Documents/Python Files/thymetoclipboard",
+		"/Users/kenny/Desktop/thyme-2017-03-27.json",
+		"/Users/kenny/Desktop/thyme-2017-03-24.json",
+		"/Users/kenny/Desktop/thyme-2017-03-23.json",
+		"/Users/kenny/Desktop/thyme-2017-03-22.json",
+		"/Users/kenny/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/kenny/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/kenny/Desktop/thyme-2017-03-16.json",
+		"/Users/kenny/Desktop/thyme-2017-03-15.json",
+		"/Users/kenny/Desktop/thyme-2017-03-14.json",
+		"/Users/kenny/Desktop/thyme-2017-03-10.json",
+		"/Users/kenny/Desktop/thyme-2017-03-09.json",
+		"/Users/kenny/Desktop/test.py",
+		"/Users/kenny/Desktop/printjson.py",
+		"/Users/kenny/Desktop/thyme-2017-03-08.json",
+		"/Users/kenny/Downloads/gmusic-playlist-master/preferences.py",
+		"/Users/kenny/Desktop/discoverweekly2.txt",
+		"/Users/kenny/Desktop/Citrine Challenge/wikiparse notes",
+		"/Users/kenny/Desktop/Citrine Challenge/wikiparse.py",
+		"/Users/kenny/Desktop/Citrine Challenge/Wikipedia-20161003174511.xml",
+		"/Users/kenny/Downloads/pypif-develop/README.md",
+		"/Users/kenny/Desktop/Citrine Challenge/test.py",
+		"/Users/kenny/Desktop/Citrine Challenge/wikiout.csv",
+		"/Users/kenny/Desktop/Citrine Challenge/wikioutPIF.json",
+		"/Users/kenny/Desktop/Citrine Challenge/test.csv",
+		"/Users/kenny/Desktop/Wikipedia-20161003174511.xml",
+		"/Users/kenny/Desktop/wikiparse notes",
+		"/Users/kenny/Desktop/wikiparse.py",
+		"/Users/kenny/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/kenny/Desktop/test.xml",
+		"/Users/kenny/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/kenny/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/kenny/Desktop/sdfdasf.py"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 175.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "clickash.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

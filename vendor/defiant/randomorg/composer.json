@@ -1,0 +1,26 @@
+{
+  "name": "defiant/randomorg",
+  "description": "PHP class and Laravel implementation for Random.org",
+  "keywords": ["random", "random.org"],
+  "homepage": "http://github.com/defiant/randomorg",
+  "authors": [
+    {
+      "name": "Sinan Taga",
+      "email": "sinantaga@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "5.*"
+  },
+  "require-dev": {
+      "phpunit/phpunit": "5.*",
+      "mockery/mockery": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "RandomOrg\\": "src/randomorg"
+    }
+  }
+}

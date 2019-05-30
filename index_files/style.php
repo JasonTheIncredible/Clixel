@@ -1,0 +1,319 @@
+<?php 
+	header("Content-type: text/css"); 
+?>
+
+	body {
+		margin: 0px 0px 0px 0px;
+		padding:0px;
+		background-color: #121212; /* used for background of whole site */
+            	font-family: trebuchet ms, helvetica, verdana;
+            	font-size: 9pt;		 /*used for size of text on mouse hover */
+		}
+
+	td {             	 
+		font-family: trebuchet ms, helvetica, verdana;
+            	font-size: 9pt; 
+		color:#000000;
+		} /* used for top navigation bar */
+
+/*Button beginning*/
+/* Shared */
+.loginBtn {
+  box-sizing: border-box;
+  position: relative;
+  /* width: 13em;  - apply for fixed size */
+  margin: 0.2em;
+  padding: 0 15px 0 46px;
+  border: none;
+  text-align: left;
+  line-height: 34px;
+  white-space: nowrap;
+  border-radius: 0.2em;
+  font-size: 16px;
+  color: #FFF;
+}
+.loginBtn:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 100%;
+}
+.loginBtn:focus {
+  outline: none;
+}
+.loginBtn:active {
+  box-shadow: inset 0 0 0 32px rgba(0,0,0,0.1);
+}
+
+
+/* Facebook */
+.loginBtn--facebook {
+  background-color: #4C69BA;
+  background-image: linear-gradient(#4C69BA, #3B55A0);
+  /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+  text-shadow: 0 -1px 0 #354C8C;
+}
+.loginBtn--facebook:before {
+  border-right: #364e92 1px solid;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_facebook.png') 6px 6px no-repeat;
+}
+.loginBtn--facebook:hover,
+.loginBtn--facebook:focus {
+  background-color: #5B7BD5;
+  background-image: linear-gradient(#5B7BD5, #4864B1);
+}
+
+
+/* Google */
+.loginBtn--google {
+  /*font-family: "Roboto", Roboto, arial, sans-serif;*/
+  background: #DD4B39;
+}
+.loginBtn--google:before {
+  border-right: #BB3F30 1px solid;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_google.png') 6px 6px no-repeat;
+}
+.loginBtn--google:hover,
+.loginBtn--google:focus {
+  background: #E74B37;
+}
+/*Buttons ending*/
+	
+	#pixels { /* used for ad board */
+		position: relative;	
+		top:0;
+		left:0;
+		width:1250;
+		height:800;
+		border:0;
+		margin-left: auto; 
+		margin-right: auto;
+		text-align: center;
+		}
+
+	#copyright { /* used for copyright bar at very bottom */
+		color: #000000;
+		font-family: trebuchet ms, arial, helvetica;
+            	font-size: 8pt; 
+		background:#646464;
+		text-align: center;
+		margin-left: auto; 
+		margin-right: auto;
+		}
+
+	h1,h2,h3,h4,h5 {
+		margin: 0px 0px 0px 0px;
+		}
+
+	h4.gold { color: #c69b1d }
+	
+	hr.c {	
+		border: none 0; 
+		border-top: 1px dashed #bbbbbb;
+		width: 100%;
+		margin-bottom: 10px;
+		text-align: center;
+		height: 1px;
+		}
+
+	#tablebreak { /* does not currently exist */
+		background:#646464;
+		}
+
+	#stat1 { 
+		color: #ffffff;
+		font-weight: bold;
+		}
+
+	#grey { 
+		color: #999999;
+		font-weight: bold;
+            	font-size: 8pt;	
+		}
+
+	.red { 
+		color: #cc0000;
+		font-weight: bold;
+		}
+
+	.red2 { 
+		font-size: 8pt;
+		color: #cc0000;
+		font-weight: bold;
+		}
+
+	#greybold { 
+		color: #cccccc;
+		font-weight: bold;
+		}
+
+	#statgreen { 
+		color: #33ff00;
+		font-weight: bold;
+		}
+
+	#statred { 
+		color: #ff0000;
+		font-weight: bold;
+		}
+
+	#toplogo {
+		position: relative;	
+		top:0;
+		left:0;
+		width:1250px;
+		height:45;
+		border:0;
+		margin-left: auto; 
+		margin-right: auto;
+		text-align: center;
+		background:#646464;
+		}
+
+	#navbar {
+		position: absolute;	
+		top:45;
+		left: auto;
+		width:800px;
+		height:20px;
+		border:2px;
+		border-style: solid;
+		margin-left: auto; 
+		margin-right: auto;
+		text-align: center;
+		background: url(navbg.gif) repeat #c69b1d;
+		}
+
+
+	a.nav:link {
+		color: #000000; font-weight: bold; text-decoration: none; font-size: 9pt;
+		}
+
+	a.nav:visited {
+		color: #000000; font-weight: bold; text-decoration: none;
+		}
+
+	a.nav:hover {
+		text-decoration: underline;
+		}
+
+
+	a.pix:link {
+		border: none;
+		}
+
+	a.pix:visited {
+		border: none;
+		}
+
+	a.pix:hover {
+		border: 5px;
+		}
+
+
+	a:link {
+		color: #000099; font-weight: bold; text-decoration: none; font-size: 9pt;
+		}
+
+	a:visited {
+		color: #000099; font-weight: bold; text-decoration: none;
+		}
+
+	a:hover {
+		text-decoration: underline;
+		}
+
+/* Changes height of winning modal */
+.winningmodal {
+	height:200px;
+}
+
+.winningtitle {
+	text-align: center;
+}
+
+/* Split the winning modal in half */
+.split {
+  height: 80%;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 20%;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side of the winning modal */
+.left {
+	top: 15%;
+  	left: 0;
+  	z-index: 2;
+	padding-left: 20px;
+}
+
+.middle {
+	left: 0;
+	padding-left: 70px;
+	border-right: 3px solid black;
+}
+
+/* Control the right side of the winning modal */
+.right {
+	top: 15%;
+  	right: 0;
+  	z-index: 2;
+  	padding-left: 20px;
+}
+
+.modal-lg{
+	width: 750px;
+}
+
+.hiddenbutton{
+	background-color: #121212;
+	color: #121212;
+	border: none;
+}
+
+#overlay{
+	display: <?php echo $_COOKIE['display']; ?>;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+    color: white;
+    z-index: <?php echo $_COOKIE['zindex']; ?>;
+	-moz-opacity: 0.7;
+	opacity:.90;
+	filter: alpha(opacity=70);
+	font-size: x-large;
+}
+
+.animated {
+            background-repeat: no-repeat;
+            background-position: left top;
+            -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+         }
+         
+         @-webkit-keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+         
+         @keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+         
+         .fadeIn {
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+         }

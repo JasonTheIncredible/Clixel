@@ -1,0 +1,46 @@
+/* Changes height of winning modal */
+.winningmodal {
+  height:200px;
+}
+
+.winningtitle {
+	text-align: center;
+}
+
+/* Split the winning modal in half */
+.split {
+  height: 80%;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 20%;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side of winning modal */
+.left {
+	top: 15%;
+  left: 0;
+  z-index: 2;
+	padding-left: 20px;
+}
+
+.middle {
+	left: 0;
+	padding-left: 70px;
+	border-right: 3px solid black;
+}
+
+/* Control the right side of winning modal */
+.right {
+	top: 15%;
+  right: 0;
+  z-index: 2;
+  padding-left: 20px;
+}
+
+/* Changes width of winning modal */
+.modal-lg {
+  width: 800px !important;
+}
